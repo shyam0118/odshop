@@ -1,8 +1,10 @@
-import { useState } from "react";
 import "./App.css";
+import Navigation from "./customer/components/navigation/Navigation";
 
 function App() {
-  return <div className="bg-red-500">Hello react</div>;
+  return <div className="">
+    <Navigation />
+  </div>;
 }
 
 export default App;
